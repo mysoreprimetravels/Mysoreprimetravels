@@ -1,0 +1,2453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <title>Mysore Prime Travels | Premium Cabs, Tour Packages & Sightseeing Taxi Services</title>
+  <meta name="description" content="Mysore Prime Travels offers premium tour packages and luxury cab rental services across Mysore, Ooty, Coorg, Wayanad, Munnar, and Kodaikanal. Call or WhatsApp +91 9538273701.">
+  <meta name="keywords" content="Mysore Prime Travels, Mysore Cabs, Ooty tour packages, Coorg taxi service, Wayanad tour, Munnar taxi, South India travel agency">
+  <meta name="author" content="Mysore Prime Travels">
+  <meta name="robots" content="index, follow">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <style>
+    /* ============================================================
+       RESET & ROOT VARIABLES (WHITE, ORANGE & ROYAL GOLD)
+       ============================================================ */
+    :root {
+      --primary-orange: #FF6600;
+      --primary-orange-dark: #E05500;
+      --primary-orange-light: #FFF0E6;
+      --gold-primary: #D4AF37;
+      --gold-dark: #B8860B;
+      --gold-light: #F9E79F;
+      --bg-white: #FFFFFF;
+      --bg-cream: #FFFDF9;
+      --bg-light-gray: #FBFBFC;
+      --text-dark: #1E2022;
+      --text-muted: #555E68;
+      --border-color: #EAECEF;
+      --shadow-sm: 0 4px 12px rgba(255, 102, 0, 0.08);
+      --shadow-md: 0 10px 25px rgba(0, 0, 0, 0.07);
+      --shadow-lg: 0 18px 40px rgba(255, 102, 0, 0.14);
+      --border-radius: 14px;
+      --transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background-color: var(--bg-white);
+      color: var(--text-dark);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 1240px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    /* ============================================================
+       TOP ANNOUNCEMENT BAR
+       ============================================================ */
+    .top-bar {
+      background: linear-gradient(90deg, #1A1A1A 0%, #2A2A2A 100%);
+      color: #FFFFFF;
+      padding: 8px 0;
+      font-size: 13.5px;
+      border-bottom: 2px solid var(--gold-primary);
+    }
+
+    .top-bar-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .top-bar-info {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .top-bar-info span, .top-bar-info a {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      color: #E2E8F0;
+      transition: var(--transition);
+    }
+
+    .top-bar-info a:hover {
+      color: var(--gold-primary);
+    }
+
+    .top-badge {
+      background: linear-gradient(135deg, var(--gold-primary), var(--gold-dark));
+      color: #000;
+      font-weight: 700;
+      padding: 2px 10px;
+      border-radius: 20px;
+      font-size: 11px;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+    }
+
+    /* ============================================================
+       HEADER & ORIGINAL COMPANY LOGO BRANDING
+       ============================================================ */
+    .site-header {
+      background-color: var(--bg-white);
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+      position: sticky;
+      top: 0;
+      z-index: 999;
+      border-bottom: 1px solid #F0F2F5;
+    }
+
+    .header-content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 0;
+    }
+
+    .logo-container {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      text-decoration: none;
+    }
+
+    .logo-badge {
+      width: 74px;
+      height: 74px;
+      flex-shrink: 0;
+      border-radius: 50%;
+      background: radial-gradient(circle at 35% 35%, #222222, #000000 85%);
+      box-shadow: 0 0 0 3px var(--gold-primary), 0 5px 15px rgba(0,0,0,0.3);
+      padding: 3px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: transform 0.3s ease;
+    }
+
+    .logo-badge:hover {
+      transform: scale(1.03);
+    }
+
+    .logo-svg {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+    }
+
+    .brand-text {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .brand-name {
+      font-family: 'Cinzel', serif;
+      font-size: 24px;
+      font-weight: 900;
+      color: #1A1A1A;
+      letter-spacing: 1.5px;
+      line-height: 1.1;
+      text-transform: uppercase;
+    }
+
+    .brand-name span {
+      color: var(--primary-orange);
+    }
+
+    .brand-tagline {
+      font-size: 11.5px;
+      font-weight: 700;
+      letter-spacing: 3.5px;
+      color: var(--gold-dark);
+      text-transform: uppercase;
+      margin-top: 3px;
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .btn-header-call {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 18px;
+      border-radius: 50px;
+      background: #FFFFFF;
+      color: var(--primary-orange);
+      border: 2px solid var(--primary-orange);
+      font-weight: 700;
+      font-size: 14px;
+      transition: var(--transition);
+    }
+
+    .btn-header-call:hover {
+      background: var(--primary-orange-light);
+    }
+
+    .btn-header-wa {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 20px;
+      border-radius: 50px;
+      background: linear-gradient(135deg, var(--primary-orange) 0%, var(--primary-orange-dark) 100%);
+      color: #FFFFFF;
+      font-weight: 700;
+      font-size: 14px;
+      box-shadow: 0 4px 14px rgba(255, 102, 0, 0.3);
+      transition: var(--transition);
+    }
+
+    .btn-header-wa:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 18px rgba(255, 102, 0, 0.45);
+    }
+
+    /* ============================================================
+       LARGE MAIN BANNER (HERO SECTION)
+       ============================================================ */
+    .hero-banner {
+      position: relative;
+      min-height: 580px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #1A1A1A;
+      overflow: hidden;
+    }
+
+    .hero-bg-img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center 38%;
+      filter: brightness(0.68) saturate(1.15);
+      transform: scale(1.02);
+      animation: subtleZoom 18s ease-in-out infinite alternate;
+    }
+
+    @keyframes subtleZoom {
+      0% { transform: scale(1.02); }
+      100% { transform: scale(1.08); }
+    }
+
+    .hero-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(180deg, rgba(0,0,0,0.4) 0%, rgba(20,20,20,0.65) 100%);
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      text-align: center;
+      color: #FFFFFF;
+      max-width: 900px;
+      padding: 60px 20px;
+    }
+
+    .hero-subbadge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(255, 255, 255, 0.15);
+      border: 1px solid var(--gold-primary);
+      backdrop-filter: blur(8px);
+      padding: 7px 18px;
+      border-radius: 50px;
+      font-size: 13.5px;
+      font-weight: 700;
+      color: var(--gold-light);
+      margin-bottom: 22px;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+    }
+
+    .hero-title {
+      font-family: 'Cinzel', serif;
+      font-size: 46px;
+      font-weight: 900;
+      line-height: 1.2;
+      margin-bottom: 18px;
+      letter-spacing: 0.5px;
+      text-shadow: 0 4px 15px rgba(0,0,0,0.6);
+    }
+
+    .hero-title span {
+      background: linear-gradient(90deg, #FFA94D 0%, #FF6600 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero-desc {
+      font-size: 18px;
+      color: #F0F4F8;
+      max-width: 760px;
+      margin: 0 auto 30px auto;
+      font-weight: 500;
+      text-shadow: 0 2px 8px rgba(0,0,0,0.5);
+    }
+
+    .hero-features-strip {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 25px;
+      flex-wrap: wrap;
+      margin-bottom: 35px;
+    }
+
+    .h-feature {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 14.5px;
+      font-weight: 600;
+      color: #FFF;
+      background: rgba(0, 0, 0, 0.35);
+      padding: 6px 14px;
+      border-radius: 20px;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .h-feature i {
+      color: var(--primary-orange);
+    }
+
+    .hero-buttons {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    .btn-hero-book {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: linear-gradient(135deg, var(--primary-orange) 0%, var(--primary-orange-dark) 100%);
+      color: #FFFFFF;
+      padding: 14px 28px;
+      border-radius: 50px;
+      font-size: 16px;
+      font-weight: 800;
+      letter-spacing: 0.5px;
+      box-shadow: 0 8px 24px rgba(255, 102, 0, 0.45);
+      transition: var(--transition);
+    }
+
+    .btn-hero-book:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 12px 30px rgba(255, 102, 0, 0.6);
+    }
+
+    .btn-hero-call {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: #FFFFFF;
+      color: #1A1A1A;
+      padding: 14px 28px;
+      border-radius: 50px;
+      font-size: 16px;
+      font-weight: 800;
+      border: 2px solid #FFFFFF;
+      transition: var(--transition);
+    }
+
+    .btn-hero-call:hover {
+      background: var(--gold-light);
+      border-color: var(--gold-light);
+      transform: translateY(-3px);
+    }
+
+    /* ============================================================
+       SIX CIRCULAR DESTINATIONS SECTION (STRICTLY PRESERVED)
+       ============================================================ */
+    .destinations-section {
+      padding: 70px 0 30px 0;
+      background-color: var(--bg-white);
+      text-align: center;
+    }
+
+    .section-eyebrow {
+      display: inline-block;
+      font-size: 13px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: var(--primary-orange);
+      background: var(--primary-orange-light);
+      padding: 5px 16px;
+      border-radius: 20px;
+      margin-bottom: 12px;
+      border: 1px solid rgba(255, 102, 0, 0.2);
+    }
+
+    .section-title {
+      font-family: 'Cinzel', serif;
+      font-size: 34px;
+      font-weight: 800;
+      color: #1A1A1A;
+      margin-bottom: 12px;
+    }
+
+    .section-subtitle {
+      font-size: 16px;
+      color: var(--text-muted);
+      max-width: 650px;
+      margin: 0 auto 45px auto;
+    }
+
+    .destinations-grid {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 24px;
+      margin-bottom: 25px;
+    }
+
+    .dest-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      cursor: pointer;
+      text-decoration: none;
+      transition: var(--transition);
+      background: transparent;
+      border: none;
+      outline: none;
+    }
+
+    .dest-card:hover {
+      transform: translateY(-6px);
+    }
+
+    .circle-frame {
+      width: 145px;
+      height: 145px;
+      border-radius: 50%;
+      position: relative;
+      padding: 5px;
+      background: linear-gradient(135deg, var(--gold-primary) 0%, var(--primary-orange) 50%, var(--gold-dark) 100%);
+      box-shadow: 0 10px 22px rgba(255, 102, 0, 0.18);
+      transition: var(--transition);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .dest-card:hover .circle-frame {
+      transform: scale(1.06);
+      box-shadow: 0 14px 30px rgba(255, 102, 0, 0.32);
+      background: linear-gradient(135deg, var(--primary-orange) 0%, var(--gold-primary) 100%);
+    }
+
+    .circle-img-wrap {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      overflow: hidden;
+      border: 3px solid #FFFFFF;
+      position: relative;
+      background: #EAEAEA;
+    }
+
+    .circle-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.6s ease;
+    }
+
+    .dest-card:hover .circle-img {
+      transform: scale(1.15);
+    }
+
+    .dest-name {
+      margin-top: 15px;
+      font-size: 17px;
+      font-weight: 800;
+      color: #1A1A1A;
+      letter-spacing: 0.3px;
+      transition: var(--transition);
+    }
+
+    .dest-card:hover .dest-name {
+      color: var(--primary-orange);
+    }
+
+    .dest-tap-hint {
+      font-size: 12px;
+      color: var(--text-muted);
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      margin-top: 3px;
+      font-weight: 600;
+    }
+
+    .dest-card:hover .dest-tap-hint {
+      color: var(--gold-dark);
+    }
+
+    /* ============================================================
+       PRIMARY PROMINENT BOOKING SECTION (BELOW 6 DESTINATIONS)
+       ============================================================ */
+    .primary-booking-section {
+      background: linear-gradient(180deg, #FFFFFF 0%, var(--bg-cream) 100%);
+      padding: 40px 0 60px 0;
+      position: relative;
+    }
+
+    .booking-card-wrapper {
+      background: #FFFFFF;
+      border: 2px solid #FFE3D1;
+      border-radius: 20px;
+      padding: 40px 30px;
+      box-shadow: 0 16px 36px rgba(255, 102, 0, 0.1);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .booking-card-wrapper::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 5px;
+      background: linear-gradient(90deg, var(--gold-primary), var(--primary-orange), var(--gold-primary));
+    }
+
+    .booking-header {
+      text-align: center;
+      max-width: 780px;
+      margin: 0 auto 30px auto;
+    }
+
+    .booking-header h3 {
+      font-family: 'Cinzel', serif;
+      font-size: 28px;
+      font-weight: 800;
+      color: #1A1A1A;
+      margin-bottom: 10px;
+    }
+
+    .booking-header p {
+      font-size: 15.5px;
+      color: var(--text-muted);
+    }
+
+    .booking-action-buttons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-bottom: 25px;
+    }
+
+    .btn-action-call {
+      flex: 1;
+      max-width: 340px;
+      min-width: 260px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      background: #FFFFFF;
+      color: var(--primary-orange);
+      border: 2.5px solid var(--primary-orange);
+      padding: 16px 26px;
+      border-radius: 50px;
+      font-size: 17px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      box-shadow: 0 6px 18px rgba(255, 102, 0, 0.12);
+      transition: var(--transition);
+      text-align: center;
+    }
+
+    .btn-action-call:hover {
+      background: var(--primary-orange-light);
+      transform: translateY(-3px);
+      box-shadow: 0 10px 24px rgba(255, 102, 0, 0.2);
+    }
+
+    .btn-action-whatsapp {
+      flex: 1;
+      max-width: 340px;
+      min-width: 260px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      background: linear-gradient(135deg, var(--primary-orange) 0%, var(--primary-orange-dark) 100%);
+      color: #FFFFFF;
+      border: 2.5px solid var(--primary-orange);
+      padding: 16px 26px;
+      border-radius: 50px;
+      font-size: 17px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      box-shadow: 0 8px 25px rgba(255, 102, 0, 0.35);
+      transition: var(--transition);
+      text-align: center;
+    }
+
+    .btn-action-whatsapp:hover {
+      background: linear-gradient(135deg, #FF771C 0%, #E04E00 100%);
+      transform: translateY(-3px);
+      box-shadow: 0 12px 30px rgba(255, 102, 0, 0.5);
+    }
+
+    .booking-phone-display {
+      text-align: center;
+      font-size: 15px;
+      color: var(--text-muted);
+      font-weight: 600;
+    }
+
+    .booking-phone-display strong {
+      color: #1A1A1A;
+      font-size: 17px;
+      letter-spacing: 0.5px;
+    }
+
+    /* ============================================================
+       PREMIUM SIGHTSEEING DETAIL MODAL
+       ============================================================ */
+    .modal-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(15, 15, 15, 0.82);
+      backdrop-filter: blur(6px);
+      z-index: 10000;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 18px;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .modal-overlay.active {
+      display: flex;
+      opacity: 1;
+    }
+
+    .modal-box {
+      background: #FFFFFF;
+      border-radius: 20px;
+      width: 100%;
+      max-width: 880px;
+      max-height: 90vh;
+      overflow-y: auto;
+      box-shadow: 0 25px 60px rgba(0, 0, 0, 0.35);
+      position: relative;
+      transform: translateY(20px);
+      transition: transform 0.3s ease;
+      border: 1px solid #EAEAEA;
+    }
+
+    .modal-overlay.active .modal-box {
+      transform: translateY(0);
+    }
+
+    .modal-close-btn {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      background: rgba(0, 0, 0, 0.7);
+      color: #FFFFFF;
+      border: 2px solid #FFFFFF;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      cursor: pointer;
+      z-index: 10;
+      transition: var(--transition);
+    }
+
+    .modal-close-btn:hover {
+      background: var(--primary-orange);
+      transform: rotate(90deg);
+    }
+
+    .modal-hero {
+      position: relative;
+      height: 280px;
+      overflow: hidden;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+    }
+
+    .modal-hero-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .modal-hero-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(180deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.85) 100%);
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 25px 30px;
+      color: #FFFFFF;
+    }
+
+    .modal-hero-badge {
+      font-size: 12px;
+      font-weight: 800;
+      color: var(--gold-light);
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-bottom: 5px;
+    }
+
+    .modal-hero-title {
+      font-family: 'Cinzel', serif;
+      font-size: 32px;
+      font-weight: 800;
+      line-height: 1.1;
+      text-shadow: 0 2px 10px rgba(0,0,0,0.6);
+    }
+
+    .modal-body {
+      padding: 30px;
+    }
+
+    .modal-intro {
+      font-size: 15.5px;
+      color: #4A5568;
+      margin-bottom: 25px;
+      line-height: 1.7;
+    }
+
+    .attractions-heading {
+      font-family: 'Cinzel', serif;
+      font-size: 21px;
+      font-weight: 800;
+      color: #1A1A1A;
+      margin-bottom: 18px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid var(--primary-orange);
+      display: inline-block;
+    }
+
+    .attractions-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 16px;
+      margin-bottom: 30px;
+    }
+
+    .attraction-card {
+      background: #FFFDF9;
+      border: 1px solid #F1E4D8;
+      border-radius: 12px;
+      padding: 16px;
+      transition: var(--transition);
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .attraction-card:hover {
+      border-color: var(--primary-orange);
+      box-shadow: 0 6px 15px rgba(255, 102, 0, 0.08);
+      transform: translateY(-2px);
+    }
+
+    .attraction-title {
+      font-size: 15.5px;
+      font-weight: 750;
+      color: #1A1A1A;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .attraction-title i {
+      color: var(--primary-orange);
+      font-size: 14px;
+    }
+
+    .attraction-desc {
+      font-size: 13.5px;
+      color: #555E68;
+      line-height: 1.5;
+    }
+
+    .modal-footer {
+      background: #FDF9F5;
+      border-top: 1px solid #EFE4DC;
+      padding: 22px 30px;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .modal-footer-text {
+      font-size: 13.5px;
+      color: #64748B;
+    }
+
+    .modal-footer-text strong {
+      color: #1A1A1A;
+      display: block;
+      font-size: 15px;
+    }
+
+    .modal-footer-actions {
+      display: flex;
+      gap: 12px;
+    }
+
+    .btn-modal-call {
+      padding: 10px 18px;
+      border-radius: 50px;
+      background: #FFFFFF;
+      color: var(--primary-orange);
+      border: 2px solid var(--primary-orange);
+      font-weight: 700;
+      font-size: 13.5px;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: var(--transition);
+    }
+
+    .btn-modal-call:hover {
+      background: var(--primary-orange-light);
+    }
+
+    .btn-modal-wa {
+      padding: 10px 22px;
+      border-radius: 50px;
+      background: linear-gradient(135deg, var(--primary-orange) 0%, var(--primary-orange-dark) 100%);
+      color: #FFFFFF;
+      font-weight: 700;
+      font-size: 13.5px;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      box-shadow: 0 4px 12px rgba(255, 102, 0, 0.3);
+      transition: var(--transition);
+    }
+
+    .btn-modal-wa:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 16px rgba(255, 102, 0, 0.45);
+    }
+
+    /* ============================================================
+       PREMIUM FLEET SHOWCASE (4 INDIAN PASSENGER VEHICLE CATEGORIES)
+       ============================================================ */
+    .fleet-section {
+      padding: 70px 0;
+      background-color: var(--bg-cream);
+      border-top: 1px solid #F0E6DD;
+      border-bottom: 1px solid #F0E6DD;
+    }
+
+    .fleet-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 24px;
+      margin-top: 40px;
+    }
+
+    .fleet-card {
+      background: #FFFFFF;
+      border-radius: 16px;
+      border: 1px solid #EDE7E1;
+      overflow: hidden;
+      box-shadow: var(--shadow-sm);
+      transition: var(--transition);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .fleet-card:hover {
+      transform: translateY(-5px);
+      box-shadow: var(--shadow-md);
+      border-color: #FFD2B3;
+    }
+
+    .fleet-img-wrapper {
+      height: 195px;
+      position: relative;
+      overflow: hidden;
+      background: #F4F5F7;
+    }
+
+    .fleet-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.5s ease;
+    }
+
+    .fleet-card:hover .fleet-img {
+      transform: scale(1.05);
+    }
+
+    .fleet-badge {
+      position: absolute;
+      top: 12px;
+      right: 12px;
+      background: rgba(0, 0, 0, 0.75);
+      color: var(--gold-light);
+      font-size: 11px;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 20px;
+      border: 1px solid var(--gold-primary);
+    }
+
+    .fleet-content {
+      padding: 20px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .fleet-name {
+      font-family: 'Cinzel', serif;
+      font-size: 18px;
+      font-weight: 800;
+      color: #1A1A1A;
+      margin-bottom: 5px;
+    }
+
+    .fleet-type {
+      font-size: 13px;
+      color: var(--primary-orange);
+      font-weight: 700;
+      margin-bottom: 15px;
+    }
+
+    .fleet-specs {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 16px;
+      padding-bottom: 14px;
+      border-bottom: 1px dashed #E2E8F0;
+      flex-wrap: wrap;
+    }
+
+    .spec-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 12px;
+      font-weight: 600;
+      color: #555E68;
+      background: #F8FAFC;
+      padding: 4px 8px;
+      border-radius: 6px;
+    }
+
+    .spec-item i {
+      color: var(--gold-dark);
+    }
+
+    .fleet-booking-note {
+      font-size: 12.5px;
+      color: #64748B;
+      margin-bottom: 15px;
+      line-height: 1.45;
+    }
+
+    .btn-fleet-wa {
+      width: 100%;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 10px 16px;
+      border-radius: 8px;
+      background: linear-gradient(135deg, var(--primary-orange) 0%, var(--primary-orange-dark) 100%);
+      color: #FFFFFF;
+      font-size: 13.5px;
+      font-weight: 700;
+      transition: var(--transition);
+    }
+
+    .btn-fleet-wa:hover {
+      background: linear-gradient(135deg, #FF771C 0%, #E04E00 100%);
+    }
+
+    /* ============================================================
+       WHY CHOOSE US / TRUST SECTION
+       ============================================================ */
+    .features-section {
+      padding: 70px 0;
+      background: #FFFFFF;
+      text-align: center;
+    }
+
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 24px;
+      margin-top: 40px;
+    }
+
+    .feature-box {
+      background: #FFFDF9;
+      border: 1px solid #F1E5D9;
+      border-radius: 16px;
+      padding: 30px 20px;
+      transition: var(--transition);
+      position: relative;
+    }
+
+    .feature-box:hover {
+      transform: translateY(-5px);
+      box-shadow: var(--shadow-sm);
+      border-color: var(--primary-orange);
+    }
+
+    .feature-icon-wrap {
+      width: 65px;
+      height: 65px;
+      margin: 0 auto 18px auto;
+      border-radius: 50%;
+      background: var(--primary-orange-light);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 26px;
+      color: var(--primary-orange);
+      border: 1.5px solid #FFD1B3;
+      transition: var(--transition);
+    }
+
+    .feature-box:hover .feature-icon-wrap {
+      background: var(--primary-orange);
+      color: #FFFFFF;
+    }
+
+    .feature-box h4 {
+      font-size: 17px;
+      font-weight: 800;
+      color: #1A1A1A;
+      margin-bottom: 8px;
+    }
+
+    .feature-box p {
+      font-size: 13.5px;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+
+    /* ============================================================
+       CUSTOM ENQUIRY / BOOKING FORM
+       ============================================================ */
+    .enquiry-section {
+      padding: 70px 0;
+      background: linear-gradient(180deg, var(--bg-cream) 0%, #FFFFFF 100%);
+    }
+
+    .enquiry-wrapper {
+      max-width: 820px;
+      margin: 0 auto;
+      background: #FFFFFF;
+      border: 1.5px solid #FFE4D3;
+      border-radius: 20px;
+      box-shadow: var(--shadow-md);
+      padding: 40px;
+    }
+
+    .form-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 18px;
+      margin-top: 25px;
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      text-align: left;
+    }
+
+    .form-group.full {
+      grid-column: span 2;
+    }
+
+    .form-group label {
+      font-size: 13.5px;
+      font-weight: 700;
+      color: #334155;
+    }
+
+    .form-control {
+      width: 100%;
+      padding: 12px 16px;
+      border-radius: 8px;
+      border: 1.5px solid #CBD5E1;
+      font-family: inherit;
+      font-size: 14.5px;
+      outline: none;
+      transition: var(--transition);
+      background: #FFFFFF;
+    }
+
+    .form-control:focus {
+      border-color: var(--primary-orange);
+      box-shadow: 0 0 0 3px rgba(255, 102, 0, 0.15);
+    }
+
+    .btn-submit-enquiry {
+      grid-column: span 2;
+      background: linear-gradient(135deg, var(--primary-orange) 0%, var(--primary-orange-dark) 100%);
+      color: #FFFFFF;
+      border: none;
+      padding: 15px;
+      border-radius: 50px;
+      font-size: 16px;
+      font-weight: 800;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      box-shadow: 0 6px 20px rgba(255, 102, 0, 0.35);
+      transition: var(--transition);
+      margin-top: 10px;
+    }
+
+    .btn-submit-enquiry:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 25px rgba(255, 102, 0, 0.45);
+    }
+
+    /* ============================================================
+       FOOTER
+       ============================================================ */
+    .site-footer {
+      background-color: #141414;
+      color: #CBD5E1;
+      padding: 60px 0 25px 0;
+      border-top: 3px solid var(--gold-primary);
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1.5fr;
+      gap: 35px;
+      margin-bottom: 45px;
+    }
+
+    .footer-brand h4 {
+      font-family: 'Cinzel', serif;
+      font-size: 22px;
+      font-weight: 800;
+      color: #FFFFFF;
+      letter-spacing: 1px;
+      margin-bottom: 12px;
+    }
+
+    .footer-brand h4 span {
+      color: var(--primary-orange);
+    }
+
+    .footer-brand p {
+      font-size: 14px;
+      line-height: 1.6;
+      color: #94A3B8;
+      margin-bottom: 20px;
+    }
+
+    .footer-col h5 {
+      font-size: 16px;
+      font-weight: 800;
+      color: #FFFFFF;
+      margin-bottom: 18px;
+      position: relative;
+      padding-bottom: 8px;
+    }
+
+    .footer-col h5::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 32px;
+      height: 2px;
+      background: var(--primary-orange);
+    }
+
+    .footer-links {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .footer-links a {
+      font-size: 14px;
+      color: #94A3B8;
+      transition: var(--transition);
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .footer-links a:hover {
+      color: var(--primary-orange);
+      transform: translateX(4px);
+    }
+
+    .footer-contact-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      margin-bottom: 14px;
+      font-size: 14px;
+    }
+
+    .footer-contact-item i {
+      color: var(--primary-orange);
+      margin-top: 4px;
+    }
+
+    .footer-contact-item a {
+      color: #FFFFFF;
+      font-weight: 600;
+      transition: var(--transition);
+    }
+
+    .footer-contact-item a:hover {
+      color: var(--gold-light);
+    }
+
+    .footer-bottom {
+      border-top: 1px solid #262626;
+      padding-top: 25px;
+      text-align: center;
+      font-size: 13px;
+      color: #64748B;
+    }
+
+    .footer-bottom a {
+      color: var(--gold-primary);
+    }
+
+    /* ============================================================
+       STICKY MOBILE ACTION BAR (CALL & WHATSAPP)
+       ============================================================ */
+    .mobile-sticky-bar {
+      display: none;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background: #FFFFFF;
+      border-top: 2px solid #FFE4D3;
+      padding: 10px 14px;
+      box-shadow: 0 -4px 15px rgba(0,0,0,0.12);
+      z-index: 9999;
+    }
+
+    .mobile-sticky-inner {
+      display: flex;
+      gap: 10px;
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
+    .mobile-btn-call {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      background: #FFFFFF;
+      color: var(--primary-orange);
+      border: 2px solid var(--primary-orange);
+      padding: 12px;
+      border-radius: 50px;
+      font-weight: 800;
+      font-size: 14.5px;
+      text-transform: uppercase;
+    }
+
+    .mobile-btn-wa {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      background: linear-gradient(135deg, var(--primary-orange) 0%, var(--primary-orange-dark) 100%);
+      color: #FFFFFF;
+      border: 2px solid var(--primary-orange);
+      padding: 12px;
+      border-radius: 50px;
+      font-weight: 800;
+      font-size: 14.5px;
+      text-transform: uppercase;
+      box-shadow: 0 4px 12px rgba(255, 102, 0, 0.3);
+    }
+
+    /* ============================================================
+       RESPONSIVE BREAKPOINTS
+       ============================================================ */
+    @media (max-width: 1100px) {
+      .destinations-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 28px;
+      }
+      .fleet-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .features-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .footer-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 768px) {
+      .top-bar {
+        display: none;
+      }
+      .header-actions .btn-header-call {
+        display: none;
+      }
+      .brand-name {
+        font-size: 19px;
+      }
+      .brand-tagline {
+        font-size: 9.5px;
+        letter-spacing: 2px;
+      }
+      .logo-badge {
+        width: 60px;
+        height: 60px;
+      }
+      .hero-banner {
+        min-height: 480px;
+      }
+      .hero-title {
+        font-size: 32px;
+      }
+      .hero-desc {
+        font-size: 15px;
+      }
+      .destinations-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 18px;
+      }
+      .circle-frame {
+        width: 105px;
+        height: 105px;
+      }
+      .dest-name {
+        font-size: 14.5px;
+        margin-top: 10px;
+      }
+      .attractions-grid {
+        grid-template-columns: 1fr;
+      }
+      .fleet-grid {
+        grid-template-columns: 1fr;
+      }
+      .form-grid {
+        grid-template-columns: 1fr;
+      }
+      .form-group.full, .btn-submit-enquiry {
+        grid-column: span 1;
+      }
+      .enquiry-wrapper {
+        padding: 24px 18px;
+      }
+      .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 25px;
+      }
+      .mobile-sticky-bar {
+        display: block;
+      }
+      body {
+        padding-bottom: 70px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .destinations-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 22px;
+      }
+      .circle-frame {
+        width: 115px;
+        height: 115px;
+      }
+      .btn-action-call, .btn-action-whatsapp {
+        width: 100%;
+        max-width: 100%;
+      }
+      .booking-card-wrapper {
+        padding: 26px 16px;
+      }
+      .features-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ============================================================
+       TOP INFO BAR
+       ============================================================ -->
+  <div class="top-bar">
+    <div class="container top-bar-inner">
+      <div class="top-bar-info">
+        <span><i class="fa-solid fa-crown" style="color: var(--gold-primary);"></i> Govt. Approved Tour &amp; Cab Services</span>
+        <a href="tel:+919538273701"><i class="fa-solid fa-phone" style="color: var(--primary-orange);"></i> 24/7 Helpline: +91 9538273701</a>
+        <a href="https://wa.me/919538273701" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp" style="color: #25D366;"></i> Instant WhatsApp Booking</a>
+      </div>
+      <div>
+        <span class="top-badge">Mysore Prime Heritage</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       HEADER & ORIGINAL COMPANY LOGO
+       ============================================================ -->
+  <header class="site-header">
+    <div class="container header-content">
+      <a href="https://mysoreprimetravels.in/" class="logo-container" title="MYSORE PRIME TRAVELS - Home">
+        
+        <div class="logo-badge" aria-label="Mysore Prime Travels Original Logo">
+          <svg class="logo-svg" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="120" cy="120" r="115" stroke="url(#goldGradient)" stroke-width="6"/>
+            <circle cx="120" cy="120" r="109" stroke="#000000" stroke-width="2"/>
+            <circle cx="120" cy="120" r="105" stroke="url(#goldGradient)" stroke-width="1.5" stroke-dasharray="2 3"/>
+
+            <path d="M120 42 C120 42 127 58 120 72 C113 58 120 42 120 42Z" fill="url(#goldGradient)"/>
+            <path d="M120 72 C128 62 142 55 142 55 C142 55 138 72 122 75Z" fill="url(#goldGradient)"/>
+            <path d="M120 72 C112 62 98 55 98 55 C98 55 102 72 118 75Z" fill="url(#goldGradient)"/>
+
+            <path d="M100 85 L120 76 L140 85 V116 C140 128 120 138 120 138 C120 138 100 128 100 116 Z" stroke="url(#goldGradient)" stroke-width="4" fill="none"/>
+            <path d="M106 91 L120 84 L134 91 V114 C134 122 120 130 120 130 C120 130 106 122 106 114 Z" stroke="url(#goldGradient)" stroke-width="2" fill="none"/>
+            <line x1="120" y1="84" x2="120" y2="130" stroke="url(#goldGradient)" stroke-width="2"/>
+
+            <g transform="translate(25, 82) scale(0.48)">
+              <path d="M85 85 C80 65 65 50 45 52 C30 53 18 63 15 78 C12 92 10 110 5 115 C0 120 8 125 15 120 C22 115 25 100 28 88 C32 80 40 75 52 76 C55 85 58 105 60 125 L75 125 C75 110 74 95 78 85 C85 85 92 92 92 105 L106 105 C106 88 98 75 85 85 Z" fill="url(#goldGradient)"/>
+              <circle cx="32" cy="70" r="3" fill="#000"/>
+              <path d="M10 118 C2 115 0 95 12 90" stroke="url(#goldGradient)" stroke-width="4" stroke-linecap="round" fill="none"/>
+            </g>
+
+            <g transform="translate(142, 82) scale(0.48)">
+              <path d="M25 85 C30 65 45 50 65 52 C80 53 92 63 95 78 C98 92 100 110 105 115 C110 120 102 125 95 120 C88 115 85 100 82 88 C78 80 70 75 58 76 C55 85 52 105 50 125 L35 125 C35 110 36 95 32 85 C25 85 18 92 18 105 L4 105 C4 88 12 75 25 85 Z" fill="url(#goldGradient)"/>
+              <circle cx="78" cy="70" r="3" fill="#000"/>
+              <path d="M100 118 C108 115 110 95 98 90" stroke="url(#goldGradient)" stroke-width="4" stroke-linecap="round" fill="none"/>
+            </g>
+
+            <path d="M38 148 Q80 142 120 148 Q160 142 202 148" stroke="url(#goldGradient)" stroke-width="2.5" fill="none"/>
+            <polygon points="120,143 124,148 120,153 116,148" fill="url(#goldGradient)"/>
+
+            <text x="120" y="174" text-anchor="middle" font-family="'Cinzel', serif" font-weight="900" font-size="19" fill="url(#goldGradient)" letter-spacing="1.2">MYSORE PRIME</text>
+            
+            <line x1="50" y1="184" x2="85" y2="184" stroke="url(#goldGradient)" stroke-width="1.5"/>
+            <text x="120" y="188" text-anchor="middle" font-family="'Cinzel', serif" font-weight="700" font-size="12" fill="url(#goldGradient)" letter-spacing="5">TRAVELS</text>
+            <line x1="155" y1="184" x2="190" y2="184" stroke="url(#goldGradient)" stroke-width="1.5"/>
+
+            <path d="M120 196 C117 202 120 206 120 206 C120 206 123 202 120 196Z" fill="url(#goldGradient)"/>
+
+            <defs>
+              <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#FDF1A9" />
+                <stop offset="40%" stop-color="#D4AF37" />
+                <stop offset="75%" stop-color="#AA7C11" />
+                <stop offset="100%" stop-color="#F3E07B" />
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+
+        <div class="brand-text">
+          <h1 class="brand-name">MYSORE <span>PRIME</span></h1>
+          <span class="brand-tagline">T R A V E L S</span>
+        </div>
+      </a>
+
+      <div class="header-actions">
+        <a href="tel:+919538273701" class="btn-header-call">
+          <i class="fa-solid fa-phone"></i>
+          <span>+91 9538273701</span>
+        </a>
+        <a href="https://wa.me/919538273701?text=Hello%20Mysore%20Prime%20Travels,%20I%20would%20like%20to%20enquire%20about%20a%20tour%20package." target="_blank" rel="noopener" class="btn-header-wa">
+          <i class="fa-brands fa-whatsapp"></i>
+          <span>BOOK CAB / TOUR</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============================================================
+       LARGE MAIN BANNER (HERO BANNER)
+       ============================================================ -->
+  <section class="hero-banner">
+    <img 
+      src="https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1920&q=80" 
+      alt="Illuminated Royal Mysore Palace - Mysore Prime Travels" 
+      class="hero-bg-img"
+      loading="eager"
+    >
+    <div class="hero-overlay"></div>
+
+    <div class="container hero-content">
+      <div class="hero-subbadge">
+        <i class="fa-solid fa-gem"></i> Mysore's Most Trusted Luxury Travel Partner
+      </div>
+
+      <h2 class="hero-title">
+        Experience South India With <span>MYSORE PRIME TRAVELS</span>
+      </h2>
+
+      <p class="hero-desc">
+        Embark on memorable journeys across Mysore, Ooty, Coorg, Wayanad, Munnar, and Kodaikanal. Reliable drivers, pristine fleet, and customized sightseeing itineraries tailored just for you.
+      </p>
+
+      <div class="hero-features-strip">
+        <div class="h-feature"><i class="fa-solid fa-circle-check"></i> Clean AC Vehicles</div>
+        <div class="h-feature"><i class="fa-solid fa-circle-check"></i> Experienced Tour Drivers</div>
+        <div class="h-feature"><i class="fa-solid fa-circle-check"></i> 24/7 Dedicated Support</div>
+        <div class="h-feature"><i class="fa-solid fa-circle-check"></i> Custom Sightseeing</div>
+      </div>
+
+      <div class="hero-buttons">
+        <a href="https://wa.me/919538273701?text=Hello%20Mysore%20Prime%20Travels,%20I%20want%20to%20book%20a%20customized%20tour%20package." target="_blank" rel="noopener" class="btn-hero-book">
+          <i class="fa-brands fa-whatsapp"></i> BOOK NOW / WHATSAPP
+        </a>
+        <a href="tel:+919538273701" class="btn-hero-call">
+          <i class="fa-solid fa-phone"></i> CALL NOW: +91 9538273701
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SIX CIRCULAR DESTINATIONS (STRICTLY PRESERVED)
+       ============================================================ -->
+  <section class="destinations-section" id="destinations">
+    <div class="container">
+      <span class="section-eyebrow">Handcrafted Tour Itineraries</span>
+      <h2 class="section-title">Popular Tourist Destinations</h2>
+      <p class="section-subtitle">
+        Click on any destination to view famous attractions, sightseeing highlights, and enquire directly.
+      </p>
+
+      <div class="destinations-grid">
+        
+        <!-- 1. Mysore: UNCHANGED -->
+        <button type="button" class="dest-card" onclick="openDestinationModal('mysore')" aria-label="Explore Mysore Sightseeing">
+          <div class="circle-frame">
+            <div class="circle-img-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=600&q=80" 
+                alt="Illuminated Mysore Palace" 
+                class="circle-img"
+                loading="lazy"
+              >
+            </div>
+          </div>
+          <h3 class="dest-name">1. Mysore</h3>
+          <span class="dest-tap-hint"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Places</span>
+        </button>
+
+        <!-- 2. Ooty: UNCHANGED -->
+        <button type="button" class="dest-card" onclick="openDestinationModal('ooty')" aria-label="Explore Ooty Sightseeing">
+          <div class="circle-frame">
+            <div class="circle-img-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=600&q=80" 
+                alt="Ooty Botanical Garden with Flowers and Lawns" 
+                class="circle-img"
+                loading="lazy"
+              >
+            </div>
+          </div>
+          <h3 class="dest-name">2. Ooty</h3>
+          <span class="dest-tap-hint"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Places</span>
+        </button>
+
+        <!-- 3. Kodaikanal: UNCHANGED -->
+        <button type="button" class="dest-card" onclick="openDestinationModal('kodaikanal')" aria-label="Explore Kodaikanal Sightseeing">
+          <div class="circle-frame">
+            <div class="circle-img-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80" 
+                alt="Kodaikanal Misty Viewpoint" 
+                class="circle-img"
+                loading="lazy"
+              >
+            </div>
+          </div>
+          <h3 class="dest-name">3. Kodaikanal</h3>
+          <span class="dest-tap-hint"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Places</span>
+        </button>
+
+        <!-- 4. Munnar: UNCHANGED -->
+        <button type="button" class="dest-card" onclick="openDestinationModal('munnar')" aria-label="Explore Munnar Sightseeing">
+          <div class="circle-frame">
+            <div class="circle-img-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=600&q=80" 
+                alt="Munnar Rolling Green Tea Plantations" 
+                class="circle-img"
+                loading="lazy"
+              >
+            </div>
+          </div>
+          <h3 class="dest-name">4. Munnar</h3>
+          <span class="dest-tap-hint"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Places</span>
+        </button>
+
+        <!-- 5. Coorg: UNCHANGED -->
+        <button type="button" class="dest-card" onclick="openDestinationModal('coorg')" aria-label="Explore Coorg Sightseeing">
+          <div class="circle-frame">
+            <div class="circle-img-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1560493676-04071c5f467b?auto=format&fit=crop&w=600&q=80" 
+                alt="Coorg Scenic Coffee Plantation" 
+                class="circle-img"
+                loading="lazy"
+              >
+            </div>
+          </div>
+          <h3 class="dest-name">5. Coorg</h3>
+          <span class="dest-tap-hint"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Places</span>
+        </button>
+
+        <!-- 6. Wayanad: UNCHANGED -->
+        <button type="button" class="dest-card" onclick="openDestinationModal('wayanad')" aria-label="Explore Wayanad Sightseeing">
+          <div class="circle-frame">
+            <div class="circle-img-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=600&q=80" 
+                alt="Wayanad Natural Waterfall Surrounded by Greenery" 
+                class="circle-img"
+                loading="lazy"
+              >
+            </div>
+          </div>
+          <h3 class="dest-name">6. Wayanad</h3>
+          <span class="dest-tap-hint"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Places</span>
+        </button>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       PRIMARY PROMINENT BOOKING SECTION (BELOW 6 DESTINATIONS)
+       ============================================================ -->
+  <section class="primary-booking-section">
+    <div class="container">
+      <div class="booking-card-wrapper">
+        <div class="booking-header">
+          <h3>Plan Your Dream Tour With MYSORE PRIME TRAVELS</h3>
+          <p>
+            Connect directly with our destination experts. We will customize your entire itinerary, vehicle preference, and pickup schedule seamlessly with no hidden terms.
+          </p>
+        </div>
+
+        <div class="booking-action-buttons">
+          <a href="tel:+919538273701" class="btn-action-call">
+            <i class="fa-solid fa-phone-volume"></i> CALL NOW
+          </a>
+
+          <a href="https://wa.me/919538273701?text=Hello%20Mysore%20Prime%20Travels,%20I%20would%20like%20to%20book%20a%20cab%20/%20tour%20package." target="_blank" rel="noopener" class="btn-action-whatsapp">
+            <i class="fa-brands fa-whatsapp"></i> BOOK NOW / WHATSAPP
+          </a>
+        </div>
+
+        <div class="booking-phone-display">
+          Direct Booking Line: <strong>+91 9538273701</strong> | Official: <strong>mysoreprimetravels.in</strong>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       VEHICLES SECTION (UPDATED: 4 INDIAN PASSENGER CATEGORIES)
+       ============================================================ -->
+  <section class="fleet-section" id="fleet">
+    <div class="container">
+      <div style="text-align: center;">
+        <span class="section-eyebrow">Our Well-Maintained Cabs</span>
+        <h2 class="section-title">Premium Chauffeur-Driven Fleet</h2>
+        <p class="section-subtitle">
+          Realistic Indian passenger vehicles designed for family holidays and sightseeing trips.
+        </p>
+      </div>
+
+      <div class="fleet-grid">
+        
+        <!-- 1. 4 SEATER – SEDAN (Toyota Etios / Swift Dzire) -->
+        <div class="fleet-card">
+          <div class="fleet-img-wrapper">
+            <img 
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Toyota_Etios_1.5_XLS_Sedan_2019.jpg/800px-Toyota_Etios_1.5_XLS_Sedan_2019.jpg" 
+              alt="4 Seater Sedan Toyota Etios / Swift Dzire" 
+              class="fleet-img"
+              loading="lazy"
+              referrerpolicy="no-referrer"
+              onerror="this.src='https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=600&q=80'"
+            >
+            <span class="fleet-badge">4 Seater – Sedan</span>
+          </div>
+          <div class="fleet-content">
+            <div>
+              <h3 class="fleet-name">4 Seater – Sedan</h3>
+              <div class="fleet-type">Toyota Etios / Maruti Swift Dzire</div>
+              <div class="fleet-specs">
+                <span class="spec-item"><i class="fa-solid fa-users"></i> 4 Passengers</span>
+                <span class="spec-item"><i class="fa-solid fa-suitcase"></i> 2 Luggage Bags</span>
+                <span class="spec-item"><i class="fa-solid fa-snowflake"></i> Chilled AC</span>
+                <span class="spec-item"><i class="fa-solid fa-shield-halved"></i> Sanitized</span>
+              </div>
+            </div>
+            <div>
+              <p class="fleet-booking-note">Comfortable Indian passenger sedan ideal for couples and small families exploring Mysore &amp; nearby hill stations.</p>
+              <a href="https://wa.me/919538273701?text=Hello%20Mysore%20Prime%20Travels,%20I%20am%20interested%20in%20booking%20a%204%20Seater%20Sedan%20(Etios/Dzire)." target="_blank" rel="noopener" class="btn-fleet-wa">
+                <i class="fa-brands fa-whatsapp"></i> Book Sedan via WhatsApp
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. 6/7 SEATER – SUV / MUV (Maruti Suzuki Ertiga / Kia) -->
+        <div class="fleet-card">
+          <div class="fleet-img-wrapper">
+            <img 
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Maruti_Suzuki_Ertiga%283%29.jpg/800px-Maruti_Suzuki_Ertiga%283%29.jpg" 
+              alt="6/7 Seater SUV/MUV Maruti Suzuki Ertiga" 
+              class="fleet-img"
+              loading="lazy"
+              referrerpolicy="no-referrer"
+              onerror="this.src='https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=600&q=80'"
+            >
+            <span class="fleet-badge">6/7 Seater – SUV / MUV</span>
+          </div>
+          <div class="fleet-content">
+            <div>
+              <h3 class="fleet-name">6/7 Seater – SUV / MUV</h3>
+              <div class="fleet-type">Maruti Suzuki Ertiga / Kia 6/7 Seater</div>
+              <div class="fleet-specs">
+                <span class="spec-item"><i class="fa-solid fa-users"></i> 6-7 Passengers</span>
+                <span class="spec-item"><i class="fa-solid fa-suitcase"></i> 3 Luggage Bags</span>
+                <span class="spec-item"><i class="fa-solid fa-snowflake"></i> Dual AC</span>
+                <span class="spec-item"><i class="fa-solid fa-music"></i> Audio System</span>
+              </div>
+            </div>
+            <div>
+              <p class="fleet-booking-note">Spacious family passenger vehicle with comfortable seating layout for Ooty, Coorg, and Munnar tours.</p>
+              <a href="https://wa.me/919538273701?text=Hello%20Mysore%20Prime%20Travels,%20I%20am%20interested%20in%20booking%20a%206/7%20Seater%20(Ertiga/Kia)." target="_blank" rel="noopener" class="btn-fleet-wa">
+                <i class="fa-brands fa-whatsapp"></i> Book SUV / MUV via WhatsApp
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. 7 SEATER – PREMIUM MUV (Toyota Innova Crysta) -->
+        <div class="fleet-card">
+          <div class="fleet-img-wrapper">
+            <img 
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Toyota_Innova_Crysta_2.4_Z_front_right.jpg/800px-Toyota_Innova_Crysta_2.4_Z_front_right.jpg" 
+              alt="7 Seater Premium MUV Toyota Innova Crysta" 
+              class="fleet-img"
+              loading="lazy"
+              referrerpolicy="no-referrer"
+              onerror="this.src='https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=600&q=80'"
+            >
+            <span class="fleet-badge">7 Seater – Premium MUV</span>
+          </div>
+          <div class="fleet-content">
+            <div>
+              <h3 class="fleet-name">7 Seater – Premium MUV</h3>
+              <div class="fleet-type">Toyota Innova Crysta (Luxury)</div>
+              <div class="fleet-specs">
+                <span class="spec-item"><i class="fa-solid fa-users"></i> 7 Passengers</span>
+                <span class="spec-item"><i class="fa-solid fa-suitcase"></i> 4 Large Bags</span>
+                <span class="spec-item"><i class="fa-solid fa-chair"></i> Captain Seats</span>
+                <span class="spec-item"><i class="fa-solid fa-road"></i> Hill Comfort</span>
+              </div>
+            </div>
+            <div>
+              <p class="fleet-booking-note">Renowned Toyota Innova Crysta offering maximum legroom, velvet ride quality, and trusted safety for royal holidays.</p>
+              <a href="https://wa.me/919538273701?text=Hello%20Mysore%20Prime%20Travels,%20I%20am%20interested%20in%20booking%20an%20Innova%20Crysta%20(7%20Seater)." target="_blank" rel="noopener" class="btn-fleet-wa">
+                <i class="fa-brands fa-whatsapp"></i> Book Crysta via WhatsApp
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. 12 SEATER – TEMPO TRAVELLER (12-Seater Force Tempo Traveller) -->
+        <div class="fleet-card">
+          <div class="fleet-img-wrapper">
+            <img 
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Force_Traveller_Luxury.jpg/800px-Force_Traveller_Luxury.jpg" 
+              alt="12 Seater Tempo Traveller Force Passenger Van" 
+              class="fleet-img"
+              loading="lazy"
+              referrerpolicy="no-referrer"
+              onerror="this.src='https://images.unsplash.com/photo-1570125909232-eb263c188f7e?auto=format&fit=crop&w=600&q=80'"
+            >
+            <span class="fleet-badge">12 Seater – Tempo Traveller</span>
+          </div>
+          <div class="fleet-content">
+            <div>
+              <h3 class="fleet-name">12 Seater – Tempo Traveller</h3>
+              <div class="fleet-type">Force Tempo Traveller Passenger Van</div>
+              <div class="fleet-specs">
+                <span class="spec-item"><i class="fa-solid fa-users"></i> 12 Passengers</span>
+                <span class="spec-item"><i class="fa-solid fa-luggage-cart"></i> Huge Boot Space</span>
+                <span class="spec-item"><i class="fa-solid fa-snowflake"></i> Individual AC</span>
+                <span class="spec-item"><i class="fa-solid fa-chair"></i> Pushback Seats</span>
+              </div>
+            </div>
+            <div>
+              <p class="fleet-booking-note">Actual 12-seater Force Tempo Traveller passenger van for joint families, pilgrimage groups, and corporate tours.</p>
+              <a href="https://wa.me/919538273701?text=Hello%20Mysore%20Prime%20Travels,%20I%20am%20interested%20in%20booking%20a%2012%20Seater%20Tempo%20Traveller." target="_blank" rel="noopener" class="btn-fleet-wa">
+                <i class="fa-brands fa-whatsapp"></i> Book Tempo via WhatsApp
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       WHY CHOOSE MYSORE PRIME TRAVELS
+       ============================================================ -->
+  <section class="features-section">
+    <div class="container">
+      <span class="section-eyebrow">The Mysore Prime Guarantee</span>
+      <h2 class="section-title">Why Travel With Us?</h2>
+      <p class="section-subtitle">
+        We ensure smooth, stress-free journeys with hospitality rooted in the royal traditions of Mysore.
+      </p>
+
+      <div class="features-grid">
+        <div class="feature-box">
+          <div class="feature-icon-wrap">
+            <i class="fa-solid fa-user-shield"></i>
+          </div>
+          <h4>Verified Drivers</h4>
+          <p>Courteous, verified, and licensed chauffeurs with deep knowledge of local routes and hidden attractions.</p>
+        </div>
+
+        <div class="feature-box">
+          <div class="feature-icon-wrap">
+            <i class="fa-solid fa-hand-sparkles"></i>
+          </div>
+          <h4>Clean &amp; Sanitized</h4>
+          <p>Every cab is washed, vacuumed, and thoroughly sanitized prior to pickup for complete safety and freshness.</p>
+        </div>
+
+        <div class="feature-box">
+          <div class="feature-icon-wrap">
+            <i class="fa-solid fa-clock-rotate-left"></i>
+          </div>
+          <h4>Punctual On-Time Pickups</h4>
+          <p>Never wait at railway stations or airports. Our drivers arrive 15 minutes before your scheduled departure.</p>
+        </div>
+
+        <div class="feature-box">
+          <div class="feature-icon-wrap">
+            <i class="fa-solid fa-route"></i>
+          </div>
+          <h4>Flexible Itineraries</h4>
+          <p>Stop whenever you want for coffee, photography, or dining. Your pace, your schedule, and zero rushing.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       QUICK ENQUIRY FORM (DISPATCHES DIRECTLY TO WHATSAPP)
+       ============================================================ -->
+  <section class="enquiry-section" id="enquiry">
+    <div class="container">
+      <div class="enquiry-wrapper">
+        <div style="text-align: center;">
+          <span class="section-eyebrow">Instant Quote &amp; Itinerary</span>
+          <h2 class="section-title">Quick Booking &amp; Tour Enquiry</h2>
+          <p class="section-subtitle" style="margin-bottom: 20px;">
+            Fill in your trip details below. Our customer concierge will immediately send customized travel options via WhatsApp.
+          </p>
+        </div>
+
+        <form id="tourEnquiryForm" onsubmit="handleEnquirySubmit(event)">
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="custName"><i class="fa-solid fa-user"></i> Full Name *</label>
+              <input type="text" id="custName" class="form-control" placeholder="Enter your name" required>
+            </div>
+
+            <div class="form-group">
+              <label for="custPhone"><i class="fa-solid fa-phone"></i> Phone / WhatsApp Number *</label>
+              <input type="tel" id="custPhone" class="form-control" placeholder="Your 10-digit number" required>
+            </div>
+
+            <div class="form-group">
+              <label for="custDest"><i class="fa-solid fa-location-dot"></i> Select Primary Destination *</label>
+              <select id="custDest" class="form-control" required>
+                <option value="" disabled selected>Select destination</option>
+                <option value="Mysore Sightseeing">Mysore Sightseeing</option>
+                <option value="Ooty Tour">Ooty Hill Station</option>
+                <option value="Kodaikanal Tour">Kodaikanal Package</option>
+                <option value="Munnar Kerala Tour">Munnar Tea Hills</option>
+                <option value="Coorg Kodagu Tour">Coorg Coffee Country</option>
+                <option value="Wayanad Wildlife Tour">Wayanad Nature &amp; Wildlife</option>
+                <option value="Combined South India Package">Combined Multi-Destination Tour</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="custVehicle"><i class="fa-solid fa-car"></i> Preferred Vehicle *</label>
+              <select id="custVehicle" class="form-control" required>
+                <option value="" disabled selected>Select vehicle class</option>
+                <option value="4 Seater – Sedan (Etios / Dzire)">4 Seater – Sedan (Etios / Dzire)</option>
+                <option value="6/7 Seater – SUV / MUV (Ertiga / Kia)">6/7 Seater – SUV / MUV (Ertiga / Kia)</option>
+                <option value="7 Seater – Premium MUV (Innova Crysta)">7 Seater – Premium MUV (Innova Crysta)</option>
+                <option value="12 Seater – Tempo Traveller">12 Seater – Tempo Traveller</option>
+                <option value="Need Recommendation">Need Driver/Vehicle Advice</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="travelDate"><i class="fa-solid fa-calendar-day"></i> Journey Date</label>
+              <input type="date" id="travelDate" class="form-control">
+            </div>
+
+            <div class="form-group">
+              <label for="passengerCount"><i class="fa-solid fa-users"></i> Number of Persons</label>
+              <input type="number" id="passengerCount" class="form-control" min="1" max="50" placeholder="e.g. 4 adults, 2 kids">
+            </div>
+
+            <div class="form-group full">
+              <label for="specialReq"><i class="fa-solid fa-comment-dots"></i> Special Notes / Pickup Location</label>
+              <textarea id="specialReq" class="form-control" rows="3" placeholder="e.g. Pickup from Mysore Railway Station at 9 AM, need hotel guidance..."></textarea>
+            </div>
+
+            <button type="submit" class="btn-submit-enquiry">
+              <i class="fa-brands fa-whatsapp fa-lg"></i> SUBMIT &amp; CHAT ON WHATSAPP (+91 9538273701)
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       DYNAMIC MODAL FOR DESTINATION DETAILS
+       ============================================================ -->
+  <div class="modal-overlay" id="destinationModal" onclick="closeOnBackdrop(event)">
+    <div class="modal-box" role="dialog" aria-modal="true">
+      <button type="button" class="modal-close-btn" onclick="closeDestinationModal()" aria-label="Close details">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <div class="modal-hero">
+        <img id="modalHeroImg" src="" alt="Destination Preview" class="modal-hero-img">
+        <div class="modal-hero-overlay">
+          <span class="modal-hero-badge" id="modalHeroBadge">Destination Guide</span>
+          <h3 class="modal-hero-title" id="modalHeroTitle">Destination Name</h3>
+        </div>
+      </div>
+
+      <div class="modal-body">
+        <p class="modal-intro" id="modalIntroText"></p>
+
+        <h4 class="attractions-heading">Top Tourist Attractions &amp; Highlights</h4>
+        <div class="attractions-grid" id="attractionsList"></div>
+      </div>
+
+      <div class="modal-footer">
+        <div class="modal-footer-text">
+          <strong>Enquire about this tour?</strong>
+          <span>Reach out directly for custom schedules &amp; vehicle allocation.</span>
+        </div>
+        <div class="modal-footer-actions">
+          <a href="tel:+919538273701" class="btn-modal-call">
+            <i class="fa-solid fa-phone"></i> Call Now
+          </a>
+          <a id="modalWhatsAppBtn" href="#" target="_blank" rel="noopener" class="btn-modal-wa">
+            <i class="fa-brands fa-whatsapp"></i> Book This Tour
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        
+        <div class="footer-brand">
+          <h4>MYSORE <span>PRIME</span> TRAVELS</h4>
+          <p>
+            Mysore's premier travel agency delivering comfortable outstation cab rentals, customized family holiday packages, airport transfers, and heritage sightseeing tours across South India.
+          </p>
+          <div style="display: flex; gap: 10px;">
+            <a href="tel:+919538273701" style="color: var(--primary-orange); font-size: 18px;"><i class="fa-solid fa-phone"></i></a>
+            <a href="https://wa.me/919538273701" target="_blank" rel="noopener" style="color: #25D366; font-size: 18px;"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h5>Destinations</h5>
+          <ul class="footer-links">
+            <li><a href="javascript:void(0)" onclick="openDestinationModal('mysore')"><i class="fa-solid fa-chevron-right fa-xs"></i> Mysore Sightseeing</a></li>
+            <li><a href="javascript:void(0)" onclick="openDestinationModal('ooty')"><i class="fa-solid fa-chevron-right fa-xs"></i> Ooty Botanical Garden</a></li>
+            <li><a href="javascript:void(0)" onclick="openDestinationModal('kodaikanal')"><i class="fa-solid fa-chevron-right fa-xs"></i> Kodaikanal Tour</a></li>
+            <li><a href="javascript:void(0)" onclick="openDestinationModal('munnar')"><i class="fa-solid fa-chevron-right fa-xs"></i> Munnar Tea Valleys</a></li>
+            <li><a href="javascript:void(0)" onclick="openDestinationModal('coorg')"><i class="fa-solid fa-chevron-right fa-xs"></i> Coorg Coffee County</a></li>
+            <li><a href="javascript:void(0)" onclick="openDestinationModal('wayanad')"><i class="fa-solid fa-chevron-right fa-xs"></i> Wayanad Waterfalls</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Cab Rental Fleet</h5>
+          <ul class="footer-links">
+            <li><a href="#fleet"><i class="fa-solid fa-chevron-right fa-xs"></i> 4 Seater – Sedan (Etios / Dzire)</a></li>
+            <li><a href="#fleet"><i class="fa-solid fa-chevron-right fa-xs"></i> 6/7 Seater – SUV / MUV (Ertiga / Kia)</a></li>
+            <li><a href="#fleet"><i class="fa-solid fa-chevron-right fa-xs"></i> 7 Seater – Premium MUV (Innova Crysta)</a></li>
+            <li><a href="#fleet"><i class="fa-solid fa-chevron-right fa-xs"></i> 12 Seater – Tempo Traveller</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Official Contact</h5>
+          <div class="footer-contact-item">
+            <i class="fa-solid fa-building"></i>
+            <div>
+              <strong>MYSORE PRIME TRAVELS</strong><br>
+              Heritage City, Mysore, Karnataka - 570001
+            </div>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fa-solid fa-phone"></i>
+            <div>
+              <a href="tel:+919538273701">+91 9538273701</a>
+            </div>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fa-brands fa-whatsapp"></i>
+            <div>
+              <a href="https://wa.me/919538273701" target="_blank" rel="noopener">+91 9538273701</a>
+            </div>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fa-solid fa-globe"></i>
+            <div>
+              <a href="https://mysoreprimetravels.in/">https://mysoreprimetravels.in/</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="currentYear"></span> <strong>MYSORE PRIME TRAVELS</strong>. All Rights Reserved. Clean White &amp; Orange Heritage Signature Edition.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============================================================
+       STICKY MOBILE ACTION BAR (CALL & WHATSAPP)
+       ============================================================ -->
+  <div class="mobile-sticky-bar">
+    <div class="mobile-sticky-inner">
+      <a href="tel:+919538273701" class="mobile-btn-call">
+        <i class="fa-solid fa-phone"></i> Call Now
+      </a>
+      <a href="https://wa.me/919538273701?text=Hello%20Mysore%20Prime%20Travels,%20I%20would%20like%20to%20book%20a%20tour%20package." target="_blank" rel="noopener" class="mobile-btn-wa">
+        <i class="fa-brands fa-whatsapp"></i> Book Now
+      </a>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       JAVASCRIPT LOGIC & DESTINATION DATA REPOSITORY
+       ============================================================ -->
+  <script>
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+    const destinationData = {
+      mysore: {
+        title: "Mysore Sightseeing Tour",
+        badge: "Heritage Capital of Karnataka",
+        image: "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1200&q=80",
+        intro: "Mysore, known as the City of Palaces, is rich in royal heritage, grand architecture, fragrant sandalwood, and silk. Our guided Mysore cabs take you through historical wonders seamlessly.",
+        attractions: [
+          {
+            name: "Mysore Royal Palace",
+            desc: "The world-renowned Indo-Saracenic royal residence of the Wadiyar dynasty featuring grand courtyards and stained-glass ceilings."
+          },
+          {
+            name: "Chamundi Hill & Temple",
+            desc: "Perched at 1,000 meters elevation, visit the historic Chamundeshwari Temple and the massive monolithic Nandi statue."
+          },
+          {
+            name: "Brindavan Musical Gardens",
+            desc: "Sprawling terrace gardens located beneath the Krishnarajasagara (KRS) Dam, famous for its synchronized musical fountain show."
+          },
+          {
+            name: "St. Philomena's Cathedral",
+            desc: "One of the tallest Neo-Gothic churches in Asia featuring twin spires and rare French stained glass craftsmanship."
+          },
+          {
+            name: "Sri Chamarajendra Zoological Gardens",
+            desc: "One of India's oldest and best maintained zoos, home to exotic wildlife and lush botanical trees."
+          },
+          {
+            name: "Jaganmohan Palace & Art Gallery",
+            desc: "Former royal palace housing priceless original paintings by Raja Ravi Varma and classical Indian antique artifacts."
+          }
+        ],
+        waText: "Hello Mysore Prime Travels, I am interested in exploring the Mysore Sightseeing Tour."
+      },
+
+      ooty: {
+        title: "Ooty Botanical Garden & Hill Tour",
+        badge: "Queen of Hill Stations",
+        image: "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=1200&q=80",
+        intro: "Nestled in the Nilgiri Blue Mountains, Ooty charms visitors with cool mountain breezes, green lawns, rare flowers in the Botanical Gardens, and tea estates.",
+        attractions: [
+          {
+            name: "Government Botanical Gardens",
+            desc: "Established in 1848, this 55-acre botanical reserve showcases thousands of rare exotic flora, terraced lawns, and a 20-million-year-old fossilized tree trunk."
+          },
+          {
+            name: "Nilgiri Mountain Railway (Toy Train)",
+            desc: "A UNESCO World Heritage railway offering breathtaking journeys through viaducts, tunnels, and lush valley vistas."
+          },
+          {
+            name: "Ooty Lake & Boating Pier",
+            desc: "An idyllic 65-acre artificial lake surrounded by towering eucalyptus groves, offering paddle and motor boating."
+          },
+          {
+            name: "Doddabetta Peak",
+            desc: "The highest mountain vantage point in the Nilgiri ranges with a telescope observatory overlooking the clouds."
+          },
+          {
+            name: "Government Rose Garden",
+            desc: "One of the largest rose gardens in India, blooming with over 20,000 varieties of vibrant roses on terraced slopes."
+          },
+          {
+            name: "Pykara Lake & Waterfalls",
+            desc: "Pristine Toda cultural landmark featuring dramatic cascading waterfalls and peaceful speedboat rides."
+          }
+        ],
+        waText: "Hello Mysore Prime Travels, I am interested in booking an Ooty Hill Station Tour."
+      },
+
+      kodaikanal: {
+        title: "Kodaikanal Hill Viewpoint Tour",
+        badge: "Princess of Hill Stations",
+        image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        intro: "Perched atop the Palani Hills of Tamil Nadu, Kodaikanal is loved for its mist-shrouded mountain valleys, dramatic viewpoints, pine forests, and soothing weather.",
+        attractions: [
+          {
+            name: "Coaker's Walk Viewpoint",
+            desc: "A scenic 1-kilometer pedestrian walkway along steep hill slopes offering awe-inspiring panoramas of the misty valleys below."
+          },
+          {
+            name: "Pillar Rocks",
+            desc: "Three dramatic granite boulders standing vertically at a height of 400 feet amidst rolling clouds and fog."
+          },
+          {
+            name: "Kodaikanal Star Lake",
+            desc: "The star-shaped centerpiece of the town, perfect for lakeside cycling, horse riding, and serene boat cruises."
+          },
+          {
+            name: "Bryant Park",
+            desc: "A beautifully manicured 20-acre botanical haven showcasing colorful hybrids, cut flowers, and an ancient eucalyptus."
+          },
+          {
+            name: "Silver Cascade Waterfalls",
+            desc: "A gleaming 180-foot waterfall formed by the overflow of Kodai Lake, rushing past emerald green cliffs."
+          },
+          {
+            name: "Pine Forest Reserves",
+            desc: "Majestic, tall pine timber plantations planted in 1906, offering dramatic photography walks and tranquility."
+          }
+        ],
+        waText: "Hello Mysore Prime Travels, I am interested in planning a trip to Kodaikanal."
+      },
+
+      munnar: {
+        title: "Munnar Rolling Tea Hills Tour",
+        badge: "God's Own Hill Station",
+        image: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=80",
+        intro: "Situated at the confluence of three mountain streams in Kerala, Munnar is famous for rolling green carpet tea plantations, rare Nilgiri Tahr, and misty mountain peaks.",
+        attractions: [
+          {
+            name: "Rolling Tea Plantations",
+            desc: "Vast emerald tea carpet landscapes spreading across undulating mountain slopes as far as the eye can see."
+          },
+          {
+            name: "Eravikulam National Park",
+            desc: "The sanctuary of the endangered Nilgiri Tahr and home to the Anamudi peak, South India's highest summit."
+          },
+          {
+            name: "Mattupetty Dam & Lake",
+            desc: "A picturesque concrete gravity dam surrounded by lush hills where elephants frequently visit the water's edge."
+          },
+          {
+            name: "Tea Museum & Lockhart Estate",
+            desc: "Discover centuries-old tea manufacturing processes and taste freshly hand-plucked orthodox Nilgiri teas."
+          },
+          {
+            name: "Top Station",
+            desc: "The highest point on the Munnar-Kodaikanal road offering a 360-degree bird's-eye view of the Western Ghats."
+          },
+          {
+            name: "Attukad Waterfalls",
+            desc: "A thrilling cascade surrounded by rolling jungle hills and winding mountain trekking trails."
+          }
+        ],
+        waText: "Hello Mysore Prime Travels, I would like to book a Munnar Kerala Tour Package."
+      },
+
+      coorg: {
+        title: "Coorg Coffee Plantation Tour",
+        badge: "Scotland of India",
+        image: "https://images.unsplash.com/photo-1560493676-04071c5f467b?auto=format&fit=crop&w=1200&q=80",
+        intro: "Coorg is renowned for aromatic coffee estates, spice plantations, lush green hills, and proud Kodava culture. It is one of Karnataka's most rejuvenating nature retreats.",
+        attractions: [
+          {
+            name: "Scenic Coffee Plantations",
+            desc: "Lush green Arabica and Robusta coffee estates shaded under towering native rosewood and silver oak trees."
+          },
+          {
+            name: "Abbey Falls",
+            desc: "A thunderous waterfall nestled inside private coffee plantations and spice estates, viewed from an iron hanging bridge."
+          },
+          {
+            name: "Raja's Seat",
+            desc: "A historic garden pavilion where Coorg kings enjoyed spectacular sunsets over undulating mist-laden valleys."
+          },
+          {
+            name: "Namdroling Tibetan Monastery",
+            desc: "Also known as the Golden Temple at Bylakuppe, featuring 40-foot gilded Buddha statues and Tibetan prayer wheels."
+          },
+          {
+            name: "Dubare Elephant Camp",
+            desc: "Located on the banks of the River Kaveri, where visitors can observe elephant bathing and feeding sessions."
+          },
+          {
+            name: "Mandalpatti Peak (Jeep Safari)",
+            desc: "An exhilarating 4x4 off-road drive through windswept grasslands offering sweeping vistas of the Pushpagiri forests."
+          }
+        ],
+        waText: "Hello Mysore Prime Travels, I would like to enquire about a Coorg (Kodagu) Tour."
+      },
+
+      wayanad: {
+        title: "Wayanad Waterfalls & Nature Tour",
+        badge: "Bio-Reserve Paradise",
+        image: "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1200&q=80",
+        intro: "Wayanad features pristine waterfalls, prehistoric caves, spice-scented hills, and tranquil lakes situated high on the Western Ghats border between Kerala and Karnataka.",
+        attractions: [
+          {
+            name: "Soochipara Waterfalls",
+            desc: "A three-tiered cascading natural waterfall surrounded by dense deciduous, evergreen, and montane rainforests."
+          },
+          {
+            name: "Meenmutty Falls",
+            desc: "A spectacular multi-level waterfall dropping 300 meters through lush jungle terrain."
+          },
+          {
+            name: "Banasura Sagar Dam",
+            desc: "India's largest earthen dam and second largest in Asia, set against rugged hills with island speedboating."
+          },
+          {
+            name: "Edakkal Caves",
+            desc: "Prehistoric rock shelters situated 4,000 feet high, showcasing Neolithic and Stone Age petroglyph carvings."
+          },
+          {
+            name: "Chembra Peak & Heart Lake",
+            desc: "The highest hill in Wayanad, famous for a natural heart-shaped lake that never dries up."
+          },
+          {
+            name: "Pookode Natural Lake",
+            desc: "A scenic freshwater lake nestled within evergreen mountain forests, home to blue water lilies and pedal boats."
+          }
+        ],
+        waText: "Hello Mysore Prime Travels, I am interested in a customized Wayanad Wildlife & Nature Tour."
+      }
+    };
+
+    function openDestinationModal(destKey) {
+      const data = destinationData[destKey];
+      if (!data) return;
+
+      document.getElementById('modalHeroImg').src = data.image;
+      document.getElementById('modalHeroImg').alt = data.title;
+      document.getElementById('modalHeroBadge').textContent = data.badge;
+      document.getElementById('modalHeroTitle').textContent = data.title;
+      document.getElementById('modalIntroText').textContent = data.intro;
+
+      const attractionsContainer = document.getElementById('attractionsList');
+      attractionsContainer.innerHTML = '';
+
+      data.attractions.forEach(item => {
+        const card = document.createElement('div');
+        card.className = 'attraction-card';
+        card.innerHTML = `
+          <div class="attraction-title">
+            <i class="fa-solid fa-map-pin"></i>
+            <span>${item.name}</span>
+          </div>
+          <p class="attraction-desc">${item.desc}</p>
+        `;
+        attractionsContainer.appendChild(card);
+      });
+
+      const waUrl = `https://wa.me/919538273701?text=${encodeURIComponent(data.waText)}`;
+      document.getElementById('modalWhatsAppBtn').href = waUrl;
+
+      const modal = document.getElementById('destinationModal');
+      modal.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeDestinationModal() {
+      const modal = document.getElementById('destinationModal');
+      modal.classList.remove('active');
+      document.body.style.overflow = '';
+    }
+
+    function closeOnBackdrop(e) {
+      if (e.target.id === 'destinationModal') {
+        closeDestinationModal();
+      }
+    }
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        closeDestinationModal();
+      }
+    });
+
+    function handleEnquirySubmit(event) {
+      event.preventDefault();
+
+      const name = document.getElementById('custName').value.trim();
+      const phone = document.getElementById('custPhone').value.trim();
+      const dest = document.getElementById('custDest').value;
+      const vehicle = document.getElementById('custVehicle').value;
+      const travelDate = document.getElementById('travelDate').value || 'To be decided';
+      const passengers = document.getElementById('passengerCount').value || 'Not specified';
+      const notes = document.getElementById('specialReq').value.trim() || 'None';
+
+      const message = 
+`*NEW TRAVEL ENQUIRY - MYSORE PRIME TRAVELS*
+---------------------------------------
+*Name:* ${name}
+*Phone:* ${phone}
+*Destination:* ${dest}
+*Vehicle Preference:* ${vehicle}
+*Journey Date:* ${travelDate}
+*Persons/Group:* ${passengers}
+*Special Notes:* ${notes}
+---------------------------------------
+Please share the customized tour itinerary.`;
+
+      const whatsappUrl = `https://wa.me/919538273701?text=${encodeURIComponent(message)}`;
+      window.open(whatsappUrl, '_blank');
+    }
+  </script>
+</body>
+</html>
